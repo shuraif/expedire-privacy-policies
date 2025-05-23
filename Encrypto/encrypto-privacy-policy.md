@@ -8,18 +8,22 @@ Thank you for choosing **Encrypto**! This Privacy Policy describes how we handle
 
 ## 1. Information We Collect
 
-**Encrypto** is designed to operate without collecting personal information from its users. However, we may collect the following data types:
+**Encrypto** is designed to operate entirely offline and does **not collect**, store, or transmit any personal or non-personal user data.
 
-- **App Usage Data**: We may collect anonymized data related to app usage, such as feature interactions, to improve the app's functionality and performance.
+We do **not** collect:
+- Personal information
+- App usage data
+- Location data
+- Device identifiers
+
+Your use of the app remains completely private and secure.
 
 ---
 
 ## 2. How We Use Your Information
 
-We use the collected data for the following purposes:
+As **Encrypto** does not collect any user data, there is no information used, shared, or processed for any purpose.
 
-- **Improvement of Services**: Usage data helps us enhance the app experience.
-- **Error Tracking and Troubleshooting**: To identify and fix issues to maintain a smooth user experience.
 
 ---
 

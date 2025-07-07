@@ -1,14 +1,14 @@
-# Privacy Policy for Nayapaisa
+# Privacy Policy for PaisaTrackrisa
 
 _Last updated: 31-10-2023_
 
-Thank you for choosing **Nayapaisa**! This Privacy Policy describes how we handle information collected through our app. We are committed to protecting your privacy and ensuring a safe user experience.
+Thank you for choosing **PaisaTrackrisa**! This Privacy Policy describes how we handle information collected through our app. We are committed to protecting your privacy and ensuring a safe user experience.
 
 ---
 
 ## 1. Information We Collect
 
-**Nayapaisa** is designed to operate without collecting personal information from its users. However, we may collect the following data types:
+**PaisaTrackrisa** is designed to operate without collecting personal information from its users. However, we may collect the following data types:
 
 - **App Usage Data**: We may collect anonymized data related to app usage, such as feature interactions, to improve the app's functionality and performance.
 
@@ -25,7 +25,7 @@ We use the collected data for the following purposes:
 
 ## 3. Data Storage and Security
 
-All data entered in **Nayapaisa** is stored locally on your device. We do not access, collect, or store your financial or personal information on our servers. Please note:
+All data entered in **PaisaTrackrisa** is stored locally on your device. We do not access, collect, or store your financial or personal information on our servers. Please note:
 
 - **Local Storage**: All account, transaction, and budget information is securely stored on your device.
 - **Security**: We implement technical measures to safeguard your information and prevent unauthorized access.
@@ -34,13 +34,13 @@ All data entered in **Nayapaisa** is stored locally on your device. We do not ac
 
 ## 4. Third-Party Services
 
-Currently, **Nayapaisa** does not integrate with third-party services for data collection, analysis, or processing.
+Currently, **PaisaTrackrisa** does not integrate with third-party services for data collection, analysis, or processing.
 
 ---
 
 ## 5. Your Choices and Control
 
-Since **Nayapaisa** does not collect personal data, no specific data rights requests (such as access or deletion) are required. However, if you have questions or concerns, feel free to contact us.
+Since **PaisaTrackrisa** does not collect personal data, no specific data rights requests (such as access or deletion) are required. However, if you have questions or concerns, feel free to contact us.
 
 ---
 
@@ -57,4 +57,4 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-Thank you for using Nayapaisa!
+Thank you for using PaisaTrackrisa!

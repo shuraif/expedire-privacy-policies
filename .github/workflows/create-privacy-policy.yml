@@ -45,8 +45,6 @@ jobs:
           # Create the new entry for the app
           NEW_ENTRY="- [${{ github.event.inputs.app_name }}](./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md)"
           
-          # Add the new entry before the "Thank you" line
-          sed -i "/^Thank you for reviewing our privacy practices!/i $NEW_ENTRY" index.md
         
       - name: Commit and push changes
         run: |

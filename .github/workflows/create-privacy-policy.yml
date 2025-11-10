@@ -1,0 +1,52 @@
+name: Create Privacy Policy
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_name:
+        description: 'Name of the app for the privacy policy'
+        required: true
+        type: string
+
+jobs:
+  create-policy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Create app folder
+        run: |
+          mkdir -p "${{ github.event.inputs.app_name }}"
+        
+      - name: Copy and rename privacy policy file
+        run: |
+          cp "./DeepLinking/deeplinking-privacy-policy.md" "./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md"
+        
+      - name: Replace app name in privacy policy
+        run: |
+          # Convert app name to lowercase for replacement
+          APP_NAME_LOWER=$(echo "${{ github.event.inputs.app_name }}" | tr '[:upper:]' '[:lower:]')
+          
+          # Replace "deeplinking" (lowercase) with the lowercase app name
+          sed -i "s/deeplinking/${APP_NAME_LOWER}/g" "./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md"
+          
+          # Replace "DeepLining" (title case) with the original app name
+          sed -i "s/DeepLining/${{ github.event.inputs.app_name }}/g" "./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md"
+      
+      - name: Update index.md with new app entry
+        run: |
+          # Create the new entry for the app
+          NEW_ENTRY="- [${{ github.event.inputs.app_name }}](./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md)"
+          
+          # Add the new entry before the "Thank you" line
+          sed -i "/^Thank you for reviewing our privacy practices!/i $NEW_ENTRY" index.md
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add privacy policy for ${{ github.event.inputs.app_name }}"
+          git push

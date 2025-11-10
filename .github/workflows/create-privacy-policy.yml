@@ -49,4 +49,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Add privacy policy for ${{ github.event.inputs.app_name }}"
-          git push https://shuraif:${{ secrets.GH_PAT }}@github.com/shuraif/expedire-privacy-policies.git
+          git push

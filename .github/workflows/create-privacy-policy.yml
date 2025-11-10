@@ -36,8 +36,8 @@ jobs:
           # Replace "deeplinking" (lowercase) with the lowercase app name
           sed -i "s/deeplinking/${APP_NAME_LOWER}/g" "./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md"
           
-          # Replace "DeepLining" (title case) with the original app name
-          sed -i "s/DeepLining/${{ github.event.inputs.app_name }}/g" "./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md"
+          # Replace "DeepLinking" (title case) with the original app name
+          sed -i "s/DeepLinking/${{ github.event.inputs.app_name }}/g" "./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md"
       
       - name: Update index.md with new app entry
         run: |

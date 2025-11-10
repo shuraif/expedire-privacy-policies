@@ -5,3 +5,4 @@ Welcome to the privacy policies page for Expedire Innovations. Click the links b
 - [PaisaTrackr](./PaisaTrackr/paisatrackr-privacy-policy.md)
 - [Encrypto](./Encrypto/encrypto-privacy-policy.md)
 - [DeepLinking](./DeepLinking/deeplinking-privacy-policy.md)
+- [TriMorris](./TriMorris/trimorris-privacy-policy.md)

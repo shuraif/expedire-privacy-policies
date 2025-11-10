@@ -25,7 +25,8 @@ jobs:
         
       - name: Copy and rename privacy policy file
         run: |
-          cp "./DeepLinking/deeplinking-privacy-policy.md" "./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md"
+          APP_NAME_LOWER=$(echo "${{ github.event.inputs.app_name }}" | tr '[:upper:]' '[:lower:]')
+          cp "./DeepLinking/deeplinking-privacy-policy.md" "./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md"
         
       - name: Replace app name in privacy policy
         run: |
@@ -33,15 +34,15 @@ jobs:
           APP_NAME_LOWER=$(echo "${{ github.event.inputs.app_name }}" | tr '[:upper:]' '[:lower:]')
           
           # Replace "deeplinking" (lowercase) with the lowercase app name
-          sed -i "s/deeplinking/${APP_NAME_LOWER}/g" "./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md"
+          sed -i "s/deeplinking/${APP_NAME_LOWER}/g" "./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md"
           
           # Replace "DeepLining" (title case) with the original app name
-          sed -i "s/DeepLining/${{ github.event.inputs.app_name }}/g" "./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md"
+          sed -i "s/DeepLining/${{ github.event.inputs.app_name }}/g" "./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md"
       
       - name: Update index.md with new app entry
         run: |
           # Create the new entry for the app
-          NEW_ENTRY="- [${{ github.event.inputs.app_name }}](./${{ github.event.inputs.app_name }}/${{ github.event.inputs.app_name }}-privacy-policy.md)"
+          NEW_ENTRY="- [${{ github.event.inputs.app_name }}](./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md)"
           
           # Add the new entry before the "Thank you" line
           sed -i "/^Thank you for reviewing our privacy practices!/i $NEW_ENTRY" index.md

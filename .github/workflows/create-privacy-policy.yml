@@ -44,6 +44,7 @@ jobs:
           APP_NAME_LOWER=$(echo "${{ github.event.inputs.app_name }}" | tr '[:upper:]' '[:lower:]')
           # Create the new entry for the app
           NEW_ENTRY="- [${{ github.event.inputs.app_name }}](./${{ github.event.inputs.app_name }}/${APP_NAME_LOWER}-privacy-policy.md)"
+          sed -i "$NEW_ENTRY" index.md
           
         
       - name: Commit and push changes

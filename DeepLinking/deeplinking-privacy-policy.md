@@ -1,14 +1,14 @@
-# Privacy Policy for DeepLining
+# Privacy Policy for DeepLinking
 
 _Last updated: 31-10-2023_
 
-Thank you for choosing **DeepLining**! This Privacy Policy describes how we handle information collected through our app. We are committed to protecting your privacy and ensuring a safe user experience.
+Thank you for choosing **DeepLinking**! This Privacy Policy describes how we handle information collected through our app. We are committed to protecting your privacy and ensuring a safe user experience.
 
 ---
 
 ## 1. Information We Collect
 
-**DeepLining** is designed to operate entirely offline and does **not collect**, store, or transmit any personal or non-personal user data.
+**DeepLinking** is designed to operate entirely offline and does **not collect**, store, or transmit any personal or non-personal user data.
 
 We do **not** collect:
 - Personal information
@@ -22,14 +22,14 @@ Your use of the app remains completely private and secure.
 
 ## 2. How We Use Your Information
 
-As **DeepLining** does not collect any user data, there is no information used, shared, or processed for any purpose.
+As **DeepLinking** does not collect any user data, there is no information used, shared, or processed for any purpose.
 
 
 ---
 
 ## 3. Data Storage and Security
 
-All data entered in **DeepLining** is stored locally on your device. We do not access, collect, or store your financial or personal information on our servers. Please note:
+All data entered in **DeepLinking** is stored locally on your device. We do not access, collect, or store your financial or personal information on our servers. Please note:
 
 - **Local Storage**: All account, transaction, and budget information is securely stored on your device.
 - **Security**: We implement technical measures to safeguard your information and prevent unauthorized access.
@@ -38,13 +38,13 @@ All data entered in **DeepLining** is stored locally on your device. We do not a
 
 ## 4. Third-Party Services
 
-Currently, **DeepLining** does not integrate with third-party services for data collection, analysis, or processing.
+Currently, **DeepLinking** does not integrate with third-party services for data collection, analysis, or processing.
 
 ---
 
 ## 5. Your Choices and Control
 
-Since **DeepLining** does not collect personal data, no specific data rights requests (such as access or deletion) are required. However, if you have questions or concerns, feel free to contact us.
+Since **DeepLinking** does not collect personal data, no specific data rights requests (such as access or deletion) are required. However, if you have questions or concerns, feel free to contact us.
 
 ---
 
@@ -61,4 +61,4 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-Thank you for using DeepLining!
+Thank you for using DeepLinking!

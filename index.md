@@ -7,4 +7,5 @@ Welcome to the privacy policies page for Expedire Innovations. Click the links b
 - [DeepLinking](./DeepLinking/deeplinking-privacy-policy.md)
 
 - [TriMorris](./TriMorris/TriMorris-privacy-policy.md)
+- [TriMorris](./TriMorris/-privacy-policy.md)
 Thank you for reviewing our privacy practices!
